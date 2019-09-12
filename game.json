@@ -58,12 +58,12 @@
           },
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "LOC4",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "LOC5",
             "condition": ""
           }
         ],
@@ -75,7 +75,7 @@
         "exits": [
           {
             "verb": "NORTH",
-            "target": "LOC3",
+            "target": "LOC2",
             "condition": ""
           },
           {
@@ -85,12 +85,12 @@
           },
           {
             "verb": "WEST",
-            "target": "LOC3",
+            "target": "LOC4",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC3",
+            "target": "LOC5",
             "condition": ""
           }
         ],
@@ -107,20 +107,75 @@
           },
           {
             "verb": "SOUTH",
-            "target": "LOC2",
+            "target": "LOC3",
             "condition": ""
           },
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "LOC4",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "LOC5",
             "condition": ""
           }
-        ]
+        ],
+        "inventory": []
+      },
+      "LOC4":{
+        "name": "Ker Loch Steppe",
+        "desc": "The biggest city in the Isle. You can tell because just looking at it, your pockets feel lighter, and you're developing an intimate resentment of people who have lived here for a shorter time than you. It has spirous buildings that curl like braziers cupping fire, except instead of fire it's some layabout noble who doesn't know that chicken is poultry, or that eggs are the product of mensis. Other than that, it's nice enough: In spite of its name, the loch is tiny, and the steppe the city sits on so you don't really get to appreciate that at all.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC4",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "START",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC5":{
+        "name": "County Pillswick",
+        "desc": "Really the bladder of the whole island, since all the piping runs through here. A mess of sluices, spillways, dams and copper tubing. It's unclear where all the water is coming from, on account of Ker Loch Steppe having no functioning public works, but the water in County Pillswick remains septic all the same. It doesn't quite have the Venician appeal. It also has cheaper housing and a nicer college, but nobody lives here because traffic is a nightmare, and the homeless dare to exist out where people can see them. The people here find Ker Loch Steppe's hatred of them confusing.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "LOC5",
+            "condition": ""
+          }
+        ],
+        "inventory": []
       }
     }
   }
