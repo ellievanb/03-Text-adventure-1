@@ -44,11 +44,65 @@
     "rooms": {
       "START": {
         "name": "Brave Boulder",
-        "desc": "It makes man, or mush. It's taller than three of you, and three of you couldn't begin to roll it. This stone is cursed, of course, it only rolls when you stand in front of it. The locals firmly believe that the one true king of the Ker Loch-Steppe will hurl it at the nearby kingdom of County Pilswick, whom they are inclined to hate for no real reason.",
+        "desc": "It makes man, or mush. It's taller than three of you, and three of you couldn't begin to roll it. This stone is cursed, of course, it only rolls when you stand in front of it. The locals firmly believe that the one true king of the Ker Loch-Steppe will hurl it at the nearby kingdom of County Pilswick, whom they are inclined to hate for no real reason. There's four directions, like anywhere else, you could go any one of them.",
         "exits": [
           {
             "verb": "NORTH",
             "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "LOC2",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC2": {
+        "name": "Where Else?",
+        "desc": "Where Else. It's different than Ker Loch Steppe, which is the other way, because people in the Ker at least Care. Where Else is where the stony fences are left to tumble over and the sheep are too apathetic to walk out, which is incidentally the only reason people in Where Else don't starve to death. Similarly, they don't thirst because the holes in the roofs bring them the water they could need, and the tele tells them that's all they need. Not much of a point moving onwards, is there?",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC3",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "LOC3",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC3": {
+        "name": "South of the Boulder",
+        "desc": "It's a steep decline but you found a way down the slick, sheer surface of the hillock the Brave Boulder balances upon so perilously. It's at this point you hear a not-so distant rumble, and you're pressed to ask just what is the front of a cursed boulder, exactly. You spill flat onto your ass as the Boulder rolls past you and into a patch of brambles, as it flattens whatever is in its path, including one unfortunate fox, leaving one relieved sheep.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "START",
             "condition": ""
           },
           {
@@ -66,15 +120,7 @@
             "target": "LOC2",
             "condition": ""
           }
-        ],
-        "inventory": []
-      },
-      "LOC2": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
-        "exits": [
-        ],
-        "inventory": []
+        ]
       }
     }
   }
