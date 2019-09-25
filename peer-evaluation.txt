@@ -1,0 +1,44 @@
+Name: Elizabeth VanBuskirk
+Date: Sept 25, 2019
+Project: text adventure
+Peer's repository: Noah Ramsey
+
+
+
+What is something you learned by reviewing your peer's project?
+    I learned how my peer was able to record and display how many moves the
+    user - in this case, me - has taken.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+    I did not have a very good description for my project and will remember
+    to do better on the README document of my own future projects.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+    I would suggest that the creator add in an objective or create and end
+    position, although they were clear why they did not create one.
+ 
+
+What could have been clearer or better commented?
+    When you reach the edge of the map and can't go any further the game doesn't
+    tell you that, it just keeps you in the same place and repeats the description
+    until you type in a command to go in a different direction.
+
+Was there anything in the code that was confusing to you? If so, what?
+    There was nothing that was confusing to me.
+ 
+
+Does the repository contain an appropriate LICENSE?
+    Yes.
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+    My peer makes it clear that the only thing to do in the game is to move around,
+    however in the description they could have listed what specific words would be
+    used to moce (north/south/east/west vs up/down/left/right).
+ 
+Pay a compliment to your peer based on the quality of his/her code.
+    The use of being able to record and display how many moves the user has taken
+    and how many points they have gained was good.
+
